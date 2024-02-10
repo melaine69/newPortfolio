@@ -20,7 +20,7 @@ export default function Header() {
                 <div className="absolute top-6 right-6 sm:relative sm:top-0 sm:right-6 sm:flex-1 sm:flex sm:justify-end">
                     <Button>
                         <Download className="w-5" />
-                        <span>CV </span></Button>
+                        <a href="/CV.pdf" target="_blank"download>CV </a></Button>
                 </div>
             </div>
         </header>

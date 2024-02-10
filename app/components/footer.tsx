@@ -44,7 +44,7 @@ export default function Footer() {
                         >
                             <link.icon className="w-6" />
                             <span>{link.label}</span>
-                            <ArrowRight className="ml-auto w-6 text-gray-800 transition tranform group-hover:-rotate-[45deg]" />
+                            <ArrowRight className="ml-auto w-6 text-gray-800 transition tranform rotate-[-45deg] group-hover:-rotate-0" />
                         </a>
                     ))}
                 </div>

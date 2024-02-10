@@ -1,35 +1,29 @@
-import Image from "next/image";
-import Ping from "./components/ping";
 import ProjectCard from "./components/projectCard";
+import About from "./about";
+import Hero from "./components/hero";
 
 const projects = [
   {
     name: "Garage Parrot",
-    description: "Description du projet",
+    description: "Site d'un garage qui propose des véhicules d'occasions à la vente",
     urlGithub: "/",
     urlSite: "/"
   },
   {
     name: "Agence de Voyages",
-    description: "Description du projet",
+    description: "Site vitrine de Colibri Voyages qui présente des activités, circuits et séjours nationaux et internationaux",
     urlGithub: "/",
     urlSite: "/"
   },
   {
     name: "Portfolio Photographe",
-    description: "Description du projet",
+    description: "Site vitrine pour le portfolio d'un photographe avec galerie et tarifications",
     urlGithub: "/",
     urlSite: "/"
   },
   {
     name: "Sandrine diététique",
-    description: "Description du projet",
-    urlGithub: "/",
-    urlSite: "/"
-  },
-  {
-    name: "Mon ancien Portfolio",
-    description: "Description du projet",
+    description: "Site vitrine d'une diététicienne proposant des recettes en fonction des allergènes de ses patients",
     urlGithub: "/",
     urlSite: "/"
   },
@@ -40,32 +34,10 @@ export default function Home() {
 
   return (
     <div>
-      <section id="hero" className="grid md:grid-cols-2 py-20 gap-12 mx-auto px-6 max-w-6xl">
-        <div className="py-20 space-y-6">
-          <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full border border-black/5">
-            <Ping />
-            <span className="font-bold text-primary">Disponible pour une alternance</span>
-          </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl leading-tight md:leading-tight sm:leading-tight">Mélaine Dewitte - Développeuse web passionnée.</h1>
-        </div>
-      </section>
 
-      <section
-        id="about"
-        className="mx-auto my-10 py-32 border-y">
-        <div className="mx-auto px-6 max-w-6xl">
-          <h2 className="mb-12 text-4xl font-medium">À propos</h2>
-          <div className="space-y-10">
-            <p className="text-3xl md:text-4xl leading-snug md:leading-snug">
-              Je suis développeuse full-stack. J'aime l'aspect <span className="font-semibold text-primary">créatif</span> du métier, le fait de <span className="text-primary font-semibold italic">construire</span> un projet brique par brique et collaborer avec une équipe pluridisciplinaire. Je suis actuellement en formation chez la Wild Code School et je recherche une <span className="bg-primary rounded-xl px-3 text-white font-semibold">alternance</span> pour cette année ! {" "}
-            </p>
+      <Hero />
 
-            <p className="text-2xl leading-relaxed text-gray-600">
-              <span>Je m'épanouis pleinement dans les environnements <span className="decoration-orange-400">collaboratifs</span>. Ma flexibilité me permet d'alterner entre des tâches individuelles, où je peux exprimer ma créativité, et des projets collectifs, où la synergie des idées s'épanouit</span>
-            </p>
-          </div>
-        </div>
-      </section>
+      <About />
 
       <section
         id="projects"
