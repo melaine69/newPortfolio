@@ -18,10 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
-      <body className={`flex flex-col min-h-screen ${manrope.className}`}>
+    <html className="scroll-smooth" lang="fr">
+      <body className={`flex flex-col min-h-screen  ${manrope.className}`}>
+        <div className="z-0 absolute inset-0 h-[400px] bg-gradient-to-b from-orange-200 to-white" 
+        style={{clipPath: "polygon(0 0, 100% 0, 100% 80%, 0% 100%"}}></div>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="z-10 flex-1">{children}</main>
         <Footer/>
       </body>
     </html>

@@ -1,5 +1,6 @@
 import Button from "./button";
 import Link from "next/link";
+import Download from "./icons/download";
 
 export default function Header() {
     return (
@@ -11,13 +12,15 @@ export default function Header() {
                 </div>
                 <nav className="sm:flex-1 flex sm:justify-center">
                     <ul className="flex-shrink-0 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
-                        <li><Link href="/">Accueil</Link></li>
-                        <li><Link href="/">À propos</Link></li>
-                        <li><Link href="/">Réalisations</Link></li>
+                        <li><a href="/#hero">Accueil</a></li>
+                        <li><a href="/#about">À propos</a></li>
+                        <li><a href="/#project">Réalisations</a></li>
                     </ul>
                 </nav>
                 <div className="absolute top-6 right-6 sm:relative sm:top-0 sm:right-6 sm:flex-1 sm:flex sm:justify-end">
-                    <Button>Contact</Button>
+                    <Button>
+                        <Download className="w-5" />
+                        <span>CV </span></Button>
                 </div>
             </div>
         </header>
