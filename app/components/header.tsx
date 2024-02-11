@@ -18,9 +18,13 @@ export default function Header() {
                     </ul>
                 </nav>
                 <div className="absolute top-6 right-6 sm:relative sm:top-0 sm:right-6 sm:flex-1 sm:flex sm:justify-end">
+                    <div>
                     <Button>
                         <Download className="w-5" />
-                        <a href="/assets/CV.pdf" target="_blank" download>CV </a></Button>
+                        <a href="/assets/CV.pdf" target="_blank" download>CV</a>
+                    </Button>
+                    </div>
+                 
                 </div>
             </div>
         </header>

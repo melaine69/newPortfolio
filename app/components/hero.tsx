@@ -31,7 +31,7 @@ export default function Hero() {
           className="inline-flex items-center gap-3 px-6 py-2 text-primary rounded-full border border-black/5"
         >
           <Ping />
-          <span>Disponible pour un stage</span>
+          <span>Disponible pour une alternance</span>
         </motion.div>
 
         <motion.h1
