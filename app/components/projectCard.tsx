@@ -1,9 +1,9 @@
 import ArrowRight from "./icons/arrowRight";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 interface Techno {
     title: string;
-    photo_url: StaticImageData;
+    photo_url: string;
 }
 
 interface Props {
