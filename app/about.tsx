@@ -38,7 +38,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl leading-snug md:leading-snug wavy"
           >
-              Je suis développeuse full-stack. J&#39;aime l'aspect <span className="font-semibold text-primary">créatif</span> du métier, le fait de <span className="text-primary font-semibold italic">construire</span> un projet brique par brique et collaborer avec une équipe pluridisciplinaire. Je suis actuellement en formation chez la Wild Code School et je recherche une <span className="bg-primary rounded-xl px-3 text-white font-semibold">alternance</span> pour cette année ! {" "}
+              Je suis développeuse full-stack. J&#39;aime l&#39;aspect <span className="font-semibold text-primary">créatif</span> du métier, le fait de <span className="text-primary font-semibold italic">construire</span> un projet brique par brique et collaborer avec une équipe pluridisciplinaire. Je suis actuellement en formation chez la Wild Code School et je recherche une <span className="bg-primary rounded-xl px-3 text-white font-semibold">alternance</span> pour cette année ! {" "}
             </motion.p>
 
             <motion.p className="text-2xl leading-relaxed text-gray-600"
