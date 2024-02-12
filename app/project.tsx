@@ -68,7 +68,7 @@ export default function Project() {
           initial={initial}
           whileInView={whileInView}
           viewport={{ once: true }}
-          className="mx-auto mb-12 px-6 max-w-4xl"
+          className="mx-auto mb-12 px-6 max-w-6xl"
         >
           <h2 className="text-3xl md:text-4xl font-medium">Réalisations</h2>
         </motion.div>

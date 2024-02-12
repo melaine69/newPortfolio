@@ -69,7 +69,6 @@ export default function Hero() {
               alt="Mélaine Dewitte"
             />
           </motion.div>
-
           <div className="-z-[1] absolute top-0 right-0 w-full h-full wavy-bg transform translate-x-10 translate-y-10" />
         </div>
       </div>

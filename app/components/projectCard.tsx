@@ -22,15 +22,15 @@ export default function ProjectCard({
     urlSite,
 }: Props) {
     return (
-        <div className="py-6 transition hover:bg-gray-100">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 md:gap-0 mx-auto px-6 max-w-4xl">
+        <div className="py-6 transition hover:bg-orange-100">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 md:gap-0 mx-auto px-6 max-w-6xl">
                 <div className="flex flex-col gap-3 leading-none">
                     <h2 className="text-xl font-medium">{name}</h2>
                     <p className="text-gray-600">{description}</p>
                 </div>
 
                 <div className="flex flex-col md:items-end gap-4 md:text-right leading-none">
-                    <div className="text-gray-500">
+                    <div className="text-gray-500 flex gap-6">
                         {technos.map((techno) => (
                             <Image
                                 key={techno.title}
@@ -43,7 +43,7 @@ export default function ProjectCard({
                             />
                         ))}
                     </div>
-                    <div className="flex items-center gap-6 font-medium text-sm text-primary">
+                    <div className="flex items-center gap-6 font-medium text-primary">
                         <a
                             className="group flex items-center gap-2"
                             href={urlGithub}

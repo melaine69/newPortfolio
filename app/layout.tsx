@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="fr">
       <body className={`flex flex-col min-h-screen  ${manrope.className}`}>
-        <div className="z-0 absolute inset-0 h-[400px] bg-gradient-to-b from-orange-200 to-white" 
+        <div className="z-0 absolute inset-0 h-[500px] bg-gradient-to-b from-orange-200 to-white" 
         style={{clipPath: "polygon(0 0, 100% 0, 100% 80%, 0% 100%"}}></div>
         <Header />
         <main className="z-10 flex-1">{children}</main>
