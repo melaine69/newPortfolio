@@ -52,6 +52,7 @@ export default function About() {
               Je m&#39;épanouis pleinement dans les environnements <span className="text-orange-400 underline">collaboratifs</span>. Ma flexibilité me permet d&#39;alterner entre des tâches individuelles, où je peux exprimer ma créativité, et des projets collectifs, où la synergie des idées s&#39;épanouit.
             </motion.p>
           </div>
+      
         </div>
       </section>
     )

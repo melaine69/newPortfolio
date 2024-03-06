@@ -44,15 +44,7 @@ export default function ProjectCard({
                         ))}
                     </div>
                     <div className="flex items-center gap-6 font-medium text-primary">
-                        <a
-                            className="group flex items-center gap-2"
-                            href={urlGithub}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Code Source{" "}
-                            <ArrowRight className="w-4 h-4 transform -rotate-45 transition group-hover:rotate-0" />
-                        </a>
+                       
                         <a
                             className="group flex items-center gap-2"
                             href={urlSite}

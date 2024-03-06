@@ -4,6 +4,14 @@ import { motion } from "framer-motion";
 import ProjectCard from "./components/projectCard";
 
 const projects = [
+  {
+    name: "Envolia",
+    description: "Site vitrine d'une accompagnatrice VAE, services avec formules et articles de blog optimisés",
+    urlSite: "https://envolia.melaine.dev/",
+    technos: [
+        { title: "Wordpress", photo_url: "/assets/wordpress.svg" },
+    ]
+  },
     {
         name: "Garage Parrot",
         description: "Site d'un garage qui propose des véhicules d'occasions à la vente",
@@ -18,7 +26,6 @@ const projects = [
     {
         name: "Agence de Voyages",
         description: "Site vitrine de Colibri Voyages qui présente des activités, circuits et séjours nationaux et internationaux",
-        urlGithub: "https://github.com/melaine69/colibri-voyages",
         urlSite: "https://colibri-voyages.melaine.dev/",
         technos: [
             { title: "Wordpress", photo_url: "/assets/wordpress.svg" },
